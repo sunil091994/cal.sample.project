@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "CloudFormation template for creating an S3 bucket"
+ Resources:
+   MyS3Bucket:
+     Type: "AWS::S3::Bucket"
+        BucketName: "my-unique-bucket-name" 
